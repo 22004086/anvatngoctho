@@ -6,40 +6,39 @@
   <title>Ngọc Thơ Food & Drink</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="h-screen w-screen flex items-center justify-center bg-cover bg-center"
+<body class="h-screen w-screen flex items-center justify-center bg-cover bg-center relative" 
       style="background-image: url('anvatngoctho.jpg');">
-  
+
   <!-- Lớp phủ mờ -->
   <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
-  <div class="relative z-10 text-center text-white space-y-6">
-    <h1 class="text-4xl font-bold drop-shadow-lg">Ngọc Thơ Food & Drink</h1>
-    <p class="text-lg">Kết nối ngay với chúng tôi</p>
+  <!-- Nội dung chính -->
+  <div class="relative z-10 text-center text-white p-4 max-w-md w-full">
+    <h1 class="text-3xl md:text-4xl font-bold drop-shadow-lg">Ngọc Thơ Food & Drink</h1>
+    <p class="text-base md:text-lg mt-2">Kết nối ngay với chúng tôi</p>
 
-    <!-- Liên kết MXH + Gọi -->
-    <div class="flex justify-center space-x-6">
-      <a href="https://www.facebook.com/profile.php?id=61574775274908" target="_blank" rel="noopener noreferrer"
-         class="bg-blue-600 px-6 py-2 rounded-2xl shadow-lg hover:bg-blue-700 text-white font-semibold">
+    <!-- Liên kết MXH -->
+    <div class="flex flex-col md:flex-row justify-center items-center gap-3 mt-6">
+      <a href="https://www.facebook.com/profile.php?id=6157475274908" target="_blank"
+         class="bg-blue-600 px-5 py-2 rounded-lg shadow-md hover:bg-blue-700 w-full md:w-auto text-white font-semibold">
         Facebook
       </a>
-      <a href="https://zalo.me/0789935248" target="_blank" rel="noopener noreferrer"
-         class="bg-green-500 px-6 py-2 rounded-2xl shadow-lg hover:bg-green-600 text-white font-semibold">
+      <a href="https://zalo.me/yourzaloid" target="_blank"
+         class="bg-cyan-500 px-5 py-2 rounded-lg shadow-md hover:bg-cyan-600 w-full md:w-auto text-white font-semibold">
         Zalo
       </a>
-      <a href="tel:0789935248"
-         class="bg-red-500 px-6 py-2 rounded-2xl shadow-lg hover:bg-red-600 text-white font-semibold">
-        📞 Gọi ngay
+      <a href="tel:0912345678"
+         class="bg-green-600 px-5 py-2 rounded-lg shadow-md hover:bg-green-700 w-full md:w-auto text-white font-semibold">
+        Gọi ngay
       </a>
     </div>
 
-    <!-- Địa chỉ quán với link Google Maps chính xác -->
-    <div class="mt-8">
-      <a
-        href="https://maps.app.goo.gl/ZiCuQeapibHRoCnWA"
-        target="_blank" rel="noopener noreferrer"
-        class="inline-block bg-gray-800/70 text-white font-semibold text-lg px-4 py-2 rounded-lg shadow-lg hover:bg-gray-700 transition">
-        📍 Địa chỉ quán: 58/87 Mậu Thân 2, Phường 3, TP Vĩnh Long, Vĩnh Long
-      </a>
+    <!-- Google Map -->
+    <div class="mt-6">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.655508569413!2d105.97339887480534!3d10.034045272347953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08ad1ff8b3aab%3A0xb3a89165d6e1e69a!2zNTgvODcgTeG6rXUgVGjDoG4gMiwgUGjGsOG7nW5nIDMsIFRwLiBWxKluaCBMb25nLCBWxKluaCBMb25n!5e0!3m2!1svi!2s!4v1692518475234!5m2!1svi!2s"
+        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
   </div>
 </body>
